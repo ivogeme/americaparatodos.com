@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>ERRO 503 -- Servidor Indisponível</title>
+    <style>
+        body { background-color: #000; color: #00ff00; font-family: "Courier New", Courier, monospace; margin: 20px; }
+        .container { width: 700px; margin: 0 auto; border: 1px solid #00ff00; padding: 20px; background-color: #050505; }
+        a { color: #ffff00; }
+        .error-title { color: #ff0000; font-size: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="error-title">HTTP ERRO 503: SERVICE UNVAILABLE</span><br>
+    --------------------------------------------------<br>
+    SERVIDOR CORPORATIVO: americaparatodos.com (GATEWAY #04)<br>
+    STATUS DO CANAL DE RETORNO: FALHA CRÍTICA<br><br>
+
+    <p>> O formulário de contato e atendimento ao ouvinte foi temporariamente desativado pelo administrador do sistema.</p>
+
+    <p>> MOTIVO: Intercepção de pacotes por interferência externa de modulação não autorizada.</p>
+
+    <br>
+    <b>--- DUMP DE LOG DO SISTEMA ---</b><br>
+    <code>
+    [15/OCT/1996:23:11:04 -0300] CONNECT_ATTEMPT_FROM_ANALOG_PORT<br>
+    [15/OCT/1996:23:11:05 -0300] WARNING: SIGNAL ATTEMPTING TO CONVERT TO CONTINUOUS WAVE<br>
+    [15/OCT/1996:23:11:05 -0300] INTERRUPTING PACKET FLOW...<br>
+    [15/OCT/1996:23:11:06 -0300] DATA CORRUPTED: "ALLISTURUS_NSS_UV"<br>
+    [15/OCT/1996:23:11:07 -0300] CONNECTION KILLED BY SYSTEM TO PREVENT INFECTION
+    </code>
+
+    <br><br>
+    <p>Para retornar à página principal em ambiente seguro, clique abaixo:<br>
+    <a href="index.html">[ VOLTAR AO PORTAL PRINCIPAL ]</a></p>
+</div>
+</body>
+</html>
